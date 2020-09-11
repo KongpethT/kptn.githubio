@@ -136,7 +136,28 @@ nav {
     display: none;
 }
 
-@media screen and (min-width:685px) {
+@media screen and (max-width:190px) {
+    .flex-header {
+        display: none;
+    }
+}
+
+@media screen and (max-width:345px) {
+    .active {
+        display: flex;
+    }
+    .berger {
+        display: none;
+    }
+}
+
+@media screen and (max-width:345px) {
+    .item.logo img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 685px) {
     .berger {
         display: none;
     }
