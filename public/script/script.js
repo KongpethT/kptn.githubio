@@ -1,3 +1,8 @@
+
+
+
+
+
 function switchMenu() {
     let berger = document.querySelector('.berger');
     let menuItems = document.querySelector('.content-nav')
