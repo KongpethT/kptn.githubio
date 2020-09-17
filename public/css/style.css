@@ -203,6 +203,10 @@ nav {
     .content-nav {
         width: 60%;
         background-color: rgba(0, 255, 255, 0.473);
+        box-shadow: 10px 10px 10px;
+    }
+    .content-nav:hover {
+        box-shadow: 10px 10px 10px #fff;
     }
     .content-nav .item {
         border-right: 3px solid #333;
@@ -210,13 +214,26 @@ nav {
         transition: all 0.3s ease-in-out;
     }
     .content-nav .item:hover {
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
     .content-nav .item a {
         border: none;
     }
     .content-nav .item a:hover {
         border: none;
+        color: #fff;
+    }
+    .content-nav .item a:active {
+        content: "";
+        color: #fff;
+    }
+    .content-nav .item a:before {
+        content: "";
+        color: #fff;
+    }
+    .content-nav .item a:after {
+        content: "";
+        color: #fff;
     }
 }
 
@@ -307,5 +324,5 @@ nav {
 }
 
 .modal-content span:hover {
-   opacity: 0.3;
+    opacity: 0.3;
 }
