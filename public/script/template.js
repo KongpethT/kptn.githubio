@@ -9,6 +9,7 @@ class Header extends HTMLElement {
                 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
                 <link rel="shortcut icon" href="public/image/icon.jpg" type="image/x-icon">
                 <link rel="stylesheet" href="public/css/style.css">
+                <script data-ad-client="ca-pub-9948846020316779" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <title>KPTN</title>
             </head>
             <body>
