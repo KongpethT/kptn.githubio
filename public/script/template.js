@@ -14,6 +14,8 @@ class Header extends HTMLElement {
                     gtag('config', 'UA-85971174-5');
                 </script>
                 <meta charset="UTF-8">
+                <meta name="description" content="Free Web javascript tutorials , Free Web tutorials">
+                <meta name="keywords" content="HTML, CSS, JavaScript">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
                 <link rel="shortcut icon" href="public/image/icon.jpg" type="image/x-icon">
