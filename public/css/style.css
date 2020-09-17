@@ -271,6 +271,28 @@ nav {
     box-shadow: 10px 20px 30px #333;
 }
 
+.flex-blogs .item-services {
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    margin-left: 10%;
+}
+
+.flex-blogs .item-services p {
+    margin-bottom: 10px;
+}
+
+.flex-blogs .item-services a {
+    text-decoration: none;
+    color: #333;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.flex-blogs .item-services a:hover {
+    opacity: 0.4;
+}
+
 /* modal popup */
 
 .modal {
